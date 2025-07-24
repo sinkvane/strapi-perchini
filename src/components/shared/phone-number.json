@@ -1,0 +1,14 @@
+{
+  "collectionName": "components_shared_phone_numbers",
+  "info": {
+    "displayName": "Номер телефона",
+    "icon": "phone"
+  },
+  "options": {},
+  "attributes": {
+    "phones": {
+      "type": "string"
+    }
+  },
+  "config": {}
+}

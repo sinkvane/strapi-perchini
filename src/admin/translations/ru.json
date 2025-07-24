@@ -1,0 +1,9 @@
+{
+  "global.home": "Главная",
+  "HomePage.header.title": "Привет, {name}",
+  "HomePage.header.subtitle": "Добро пожаловать в админ-панель",
+  "widget.profile.title": "Профиль",
+  "global.profile.settings": "Настройки профиля",
+  "app.utils.drag": "Перетащить",
+  "content-type-builder.plugin.name": "Типы контента"
+}
