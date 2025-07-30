@@ -19,9 +19,8 @@
     "delivery": {
       "type": "string"
     },
-    "factId": {
+    "foreignId": {
       "type": "integer",
-      "required": true,
       "unique": true
     },
     "restaurants": {
