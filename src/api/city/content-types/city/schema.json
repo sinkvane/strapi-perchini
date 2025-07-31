@@ -19,6 +19,9 @@
     "delivery": {
       "type": "string"
     },
+    "foreignId": {
+      "type": "number"
+    },
     "restaurants": {
       "type": "relation",
       "relation": "oneToMany",
