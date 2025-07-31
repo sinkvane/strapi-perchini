@@ -22,7 +22,7 @@ jobs:
 
       - name: Deploy to Server
         run: |
-          ssh sinkvane@${{ secrets.strapipro.ru }} << 'EOF'
+          ssh sinkvane@${{ secrets.SERVER_IP }} << 'EOF'
             cd ~/strapi-perchini
             git pull origin main
             npm ci --omit=dev
