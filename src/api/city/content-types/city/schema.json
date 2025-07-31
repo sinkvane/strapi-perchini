@@ -20,7 +20,7 @@
       "type": "string"
     },
     "foreignId": {
-      "type": "number"
+      "type": "string"
     },
     "restaurants": {
       "type": "relation",
