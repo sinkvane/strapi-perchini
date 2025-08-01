@@ -18,8 +18,7 @@
     },
     "address": {
       "type": "string",
-      "required": true,
-      "unique": true
+      "required": true
     },
     "PhoneNumber": {
       "type": "component",
