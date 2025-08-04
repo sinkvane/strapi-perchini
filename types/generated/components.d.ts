@@ -1,14 +1,5 @@
 import type { Schema, Struct } from '@strapi/strapi';
 
-export interface SharedHuiu extends Struct.ComponentSchema {
-  collectionName: 'components_shared_huius';
-  info: {
-    displayName: 'Huiu';
-    icon: 'arrowDown';
-  };
-  attributes: {};
-}
-
 export interface SharedMedia extends Struct.ComponentSchema {
   collectionName: 'components_shared_media';
   info: {
