@@ -25,6 +25,7 @@ jobs:
           ssh sinkvane@${{ secrets.SERVER_IP }} << 'EOF'
             cd ~/strapi-perchini
             git pull origin main
+            rm -rf node_modules
             npm ci --omit=dev
             npm run build
             pm2 restart strapi-app
