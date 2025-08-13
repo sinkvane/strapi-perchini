@@ -40,7 +40,6 @@ export interface SharedSeo extends Struct.ComponentSchema {
 declare module '@strapi/strapi' {
   export module Public {
     export interface ComponentSchemas {
-      'shared.huiu': SharedHuiu;
       'shared.media': SharedMedia;
       'shared.phone-number': SharedPhoneNumber;
       'shared.seo': SharedSeo;
